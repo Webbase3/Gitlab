@@ -1,7 +1,42 @@
-{ 
-"name": "Webbase3/Gitlab",
+{
+    "name": "Webbase3/Gitlab",
+    "description": "Gitlab for PHP",
+    "keywords": ["Gitlab", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/Webbase3/Gitlab",
+    "license": "Gitlab Platform",
+    "authors": [
+        {
+            "name": "Gitlab",
+            "homepage": "https://github.com/Webbase3/Gitlab/graphs/contributors"
+        }
+    ],
     "require": {
-        "Webbase3/Gitlab": "^5.3.3"
+        "php": "^5.4|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.8",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "suggest": {
+        "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5",
+        "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gitlab\\": "Zoho_git/Gitlab/"
+        },
+        "files": ["Zoho_git/Gitlab/function.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gitlab\\": "Zoho_git/Gitlab/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.x-dev"
+        }
     }
 }
-

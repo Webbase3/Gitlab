@@ -52,7 +52,7 @@
             "authors": [
                 {
                     "name": "Zoho",
-                    "homepage": "https://github.com/Webbase3/Gitlab/settings/collaboration"
+                    "homepage": "https://github.com/Webbase3/Gitlab/graphs/contributors"
                 }
             ],
             "description": "Gitlab for PHP",
