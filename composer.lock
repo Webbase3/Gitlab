@@ -7,11 +7,11 @@
     "content-hash": "baa8e1e6528d4b9b31bd319da2d294ec",
     "packages": [
 		{
-		"name": "your-vendor-name/package-name",
+		"name": "Webbase3/Gitlab",
 		"description": "A short description of what your package does",
 		"source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-graph-sdk.git",
+                "url": "https://github.com/Webbase3/Gitlab.git",
                 "reference": "030f8c5b9b1a6c09e71719fd638b66ea4daa2f10"
             },
 		"require": {
