@@ -1,0 +1,9 @@
+filter:
+    paths:
+        - 'Zoho_git/*'
+        - 'Gitlab/*'
+
+tools:
+    php_code_sniffer:
+        config:
+            standard: PSR2
