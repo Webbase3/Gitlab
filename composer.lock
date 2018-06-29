@@ -5,7 +5,65 @@
         "This file is @generated automatically"
     ],
     "content-hash": "b7dd13512f5ea182e982bde287474f18",
-    "packages": [],
+    "packages": [ 
+		{
+            "name": "Webbase3/Gitlab",
+            "version": "5.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Webbase3/Gitlab.git",
+                "reference": "030f8c5b9b1a6c09e71719fd638b66ea4daa2f10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/030f8c5b9b1a6c09e71719fd638b66ea4daa2f10",
+                "reference": "030f8c5b9b1a6c09e71719fd638b66ea4daa2f10",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4|^7.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client",
+                "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gitlab\\": "Zoho_git/Gitlab/"
+                },
+                "files": [
+                    "Zoho_git/Gitlab/function.php"
+                ]
+            },
+            "license": [
+                "Zoho Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Zoho",
+                    "homepage": "https://github.com/Webbase3/Gitlab/settings/collaboration"
+                }
+            ],
+            "description": "Gitlab for PHP",
+            "homepage": "https://github.com/Webbase3/Gitlab",
+            "keywords": [
+                "Gitlab",
+                "sdk"
+            ],
+            "time": "2018-02-14T23:24:51+00:00"
+        }
+	],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
